@@ -1,0 +1,145 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Jacques+Francois+Shadow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
+
+:root{ 
+    --primal-color : #26adff;
+    --secondary-color: #91c0f7;
+    --thernery-color: #08a4fb; 
+    --other-color: #edf0ff;
+    --police : 'Montserrat', sans-serif;
+    --police-2: 'Jacques Francois Shadow', serif;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0; 
+}
+
+ .main{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+ }
+
+ .box{
+    width: 50%;
+ }
+
+ .main_img{
+    background: url(./IMG/background.jpg); 
+    background-size: cover; 
+    background-position: center top;
+ }
+
+ .main_img h1{
+    font-family: var(--police-2);
+    text-transform: uppercase;
+    color: var(--other-color);
+    margin: 10px;
+ }
+
+ .container{
+    padding: 50px 100px;
+ }
+
+ .main_form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 300px;
+ }
+
+ form{
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+ }
+ h2{
+    font-size: 20px;
+    font-family: var(--police);
+    font-weight: 600;
+    text-transform: capitalize; 
+ }
+.email{
+    display: flex;
+    flex-direction: column;
+}
+.pass{
+    display: flex;
+    flex-direction: column;
+}
+.link{
+    display: flex;
+    width: 100%;
+    justify-content: end;
+    margin-top: -20px;
+}
+label{
+    font-size: 18px;
+    text-transform: capitalize;
+    margin-bottom: 5px;
+}
+input{
+    width: 100%;
+    height: 40px;
+    border: 2px solid #5f5e5e;
+    border-radius: 10px;
+
+}
+.btn{
+    display: flex;
+    justify-content: center;
+}
+button{
+    font-size: 20px;
+    padding: 10px 50px;
+    border: none;
+    border-radius: 10px;
+    color: var(--other-color);
+    background-color: var(--primal-color);
+}
+
+.icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 200px;
+}
+
+.ou-avec{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+hr{
+    height: 4px;
+    width: 40%;
+    background: #5f5e5e;
+    border: none;
+}
+
+.logo{
+    display: flex;
+    width: 70%; 
+    justify-content: space-evenly;
+}
+
+.lgo{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%; 
+    padding: 20px;
+    border: 1px solid #ece8e8;
+    background: #fff4f4;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
